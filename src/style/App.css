@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .App-logo {
@@ -32,7 +35,50 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-p {
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 1px 5px 9px #ccc;
+}
+
+label {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-shadow: 1px 5px 9px #ccc;
+
+
+  
+}
+
+input {
+  width: 400px;
+  padding: 6px 12px;
+  display: block;
+  background-color: #fff;
+  color: #444;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 25px;
+  border-radius: 9px;
+  font-size: 16px;
+  color: #fff;
+  background-color: green;
+  outline: none;
+  margin-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
 }
