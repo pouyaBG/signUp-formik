@@ -54,7 +54,7 @@ label {
   text-shadow: 1px 5px 9px #ccc;
 
 
-  
+
 }
 
 input {
@@ -72,13 +72,29 @@ input {
 }
 
 button {
+  transition: all 0.3s;
   padding: 10px 25px;
   border-radius: 9px;
   font-size: 16px;
   color: #fff;
   background-color: green;
+  border: none;
   outline: none;
   margin-top: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   cursor: pointer;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+button:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.error {
+  transition: all 0.5s;
+  color: red;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 7px 0 0 5px;
 }
